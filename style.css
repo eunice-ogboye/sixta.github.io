@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container {
+    margin: 0;
+    padding: 2% 6%;
+    background-color: #FEBD00;
+}
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont1 img{
+    width: 30px;
+    height: 20px;
+    padding: 9px;
+}
+.menu{
+    display: block;
+}
+nav img{
+    height: 100px;
+    width: 200px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color: #fff;
+}
+.bg-img{
+    margin-top: -10%;
+}
+main{
+    background-color: #fff;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 70px;
+    padding: 5% 5% 0;
+    margin-top: -20%;
+    padding-top: 10%;
+}
+.base{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 4%;
+    margin-top: -15%;
+    padding-right: -10%;
+}
+.bout{
+    width: 30%;
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    width: 80%;
+    font-weight: lighter;
+}
+
+.content h1{
+    font-size: 6rem;
+    color: #E31E24;
+    margin: -30px 0;
+}
+.content h5{
+    font-size: 18px;
+}
+
+.mid img{
+    width: 300px;
+    margin-top: 100px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list img{
+    width: 70px;
+    height: 220px;
+}
+.list-cont p{
+    font-weight: 500;
+}
+.list ul li {
+    list-style: none;
+  }
+
+.mid h4{
+    text-align: center;
+    background-color: #E31E24;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 12px 8px;
+}
+.story{
+    margin-top: -20px;
+}
+.content{
+    margin-top: -15%;
+}
+@media screen and (max-width:700px){
+    body{
+        width:100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .base{
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .content{
+        margin: 4px auto;
+    }
+    .bout{
+        width: 60%;
+        margin: 1px auto;
+    }
+    .mid img{
+        width: 300px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
